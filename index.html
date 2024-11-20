@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>songfy song for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="crossbutton.svg">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <!-- <img src="logo.svg" alt="logo"> -->
+                </div>
+                <ul>
+                    <li><img src="home.svg" alt="Home">Home</li>
+                    <li><img src="search.svg">Search</li>
+                </ul>
+            </div>
+            <div class="library rounded m-1 p-1">
+                <div class="heading">
+                    <img src="playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+
+
+                </div>
+                <div class="songlist">
+                    <ul>
+
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="hambargar">
+                    <img src="hambargar.svg">
+                </div>
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                        <path style="fill:#ffffff"
+                            d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                            data-name="Left" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                        <path style="fill:#ffffff"
+                            d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                            data-name="Right" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Signup</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Songfy Playlist</h1>
+                <div class="card-container">
+                    <div data-folder="darkside" class="card">
+                        <div class="play">
+
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+                                viewBox="0 0 32 32" style="enable-background:new 0 0 32 32" xml:space="preserve">
+                                <path
+                                    d="M7 28a.999.999 0 0 1-1-1V5a1 1 0 0 1 1.521-.854l18 11a1.001 1.001 0 0 1 0 1.708l-18 11A1 1 0 0 1 7 28z"
+                                    fill="#000000" />
+                            </svg>
+
+
+
+
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness</p>
+                    </div>
+                    <div data-folder="ncs" class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness</p>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+            <div class="playbar">
+
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo"></div>
+                    <div class="songbutton">
+                        <img id="previous" src="previousplay.svg" alt="no image">
+                        <img id="play" src="pause.svg" alt="no image">
+                        <img id="next" src="nextSong.svg" alt="no image">
+
+                    </div>
+                    <div class="songtime"></div>
+                    <div class="volume">
+                        <img src="volume.svg" alt="volume">
+                        <input id="rn" type="range" min="0" max="100" step="1" value="50" name="volume">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
